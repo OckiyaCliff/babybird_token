@@ -1,68 +1,43 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Chelsea-Market";
+  font-style: normal;
   font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-display: swap;
+  src: url("./font/ChelseaMarket-Regular.ttf") format("ttf");
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+* {
+  box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+.hero-con {
+  @apply w-full h-fit flex flex-col space-y-32 bg-[url('/hero_bg_img.png')] bg-cover bg-no-repeat lg:space-y-0 lg:bg-center;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.hero-content {
+  @apply w-full flex flex-col space-y-10 items-center px-7 lg:flex-row lg:space-y-0 lg:justify-between;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.hero-main-text {
+  @apply text-5xl font-bold underline text-white lg:text-8xl;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.hero-btn-con {
+  @apply w-full flex flex-col py-5 space-y-5 lg:flex-row lg:space-y-0 lg:space-x-5;
+}
+
+.hero-btn {
+  @apply h-fit text-lg font-medium rounded-full p-4 transition lg:px-12 lg:py-3 hover:scale-105;
+}
+
+.mobile-nav-con {
+  @apply w-full bg-black fixed top-0 left-0 z-20 flex px-7 py-4 justify-between items-center lg:hidden;
+}
+
+.link-style {
+  @apply text-white font-medium font-ChelseaMarket hover:text-gray-400;
 }
