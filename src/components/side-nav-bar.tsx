@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { FaTimes } from "react-icons/fa";
+
 import { MobileNavContext } from "../context/mobile-nav-context";
 
 const SideNavBar = () => {

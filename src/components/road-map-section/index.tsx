@@ -4,7 +4,7 @@ import { FaPeopleGroup } from "react-icons/fa6";
 import { FaGlobeAmericas } from "react-icons/fa";
 
 import RoadMapCard from "./road-map-card";
-import { ROAD_MAP_PHASES } from "../utils/constant";
+import { ROAD_MAP_PHASES } from "../../utils/constant";
 
 const RoadMap = () => {
   return (

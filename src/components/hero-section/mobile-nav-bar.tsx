@@ -1,9 +1,11 @@
 import { useContext } from "react";
-import { MobileNavContext } from "../context/mobile-nav-context";
 import { IoMenu } from "react-icons/io5";
+
+import { MobileNavContext } from "../../context/mobile-nav-context";
 
 const MobileNavBar = () => {
   const { toggleSideBar } = useContext(MobileNavContext);
+
   return (
     <nav className="mobile-nav-con">
       <header>

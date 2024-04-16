@@ -4,7 +4,7 @@ import { BsFillBarChartFill } from "react-icons/bs";
 
 import WhyBabyBirdReason from "./reason";
 import AnalysisCard from "./analysisCard";
-import { WHY_BABY_BIRD_REASONS } from "../utils/constant";
+import { WHY_BABY_BIRD_REASONS } from "../../utils/constant";
 
 const WhyBabyBird = () => {
   return (
