@@ -13,13 +13,13 @@ const HeroContent = () => {
           </p>
           <p className="text-white font-medium text-lg lg:w-3/5">
             Babybird s a GameFI ecosystem currently in development. The mission
-            statement of bibybird is to connect Meme communities by one
+            statement of babybird is to connect Meme communities by one
             ecosystem.
           </p>
 
           <p className="text-white font-medium text-lg lg:w-3/5">
             The developers of babybird team (including a full stack developer)
-            have over 5 years of experience in vvarious crypto projects
+            have over 5 years of experience in various crypto projects
             throughout the space. We possess all of the skills and know-how
             required to build a successful project.
           </p>
@@ -29,8 +29,10 @@ const HeroContent = () => {
           <button className="hero-btn text-gray-500 bg-primary">
             BUY NOW II
           </button>
-          <button className="hero-btn text-blue-600  bg-white">
-            Join Our Telegram
+          <button className="hero-btn bg-white">
+            <a href="https://t.me/babybirdsol" className="text-blue-600">
+              Join Our Telegram
+            </a>
           </button>
         </div>
       </aside>
@@ -39,13 +41,19 @@ const HeroContent = () => {
         <div className="w-0.5 hidden h-36 bg-white lg:block"></div>
 
         <div className="flex space-x-3 lg:flex-col lg:space-x-0 lg:space-y-3">
-          <div className="w-8 h-8 flex items-center justify-center rounded-full bg-white">
+          <a
+            href="https://t.me/babybirdsol"
+            className="w-8 h-8 flex items-center justify-center rounded-full bg-white"
+          >
             <FaTelegramPlane className="w-5 h-5 lg:w-5 lg:h-5" />
-          </div>
+          </a>
 
-          <div className="w-8 h-8 flex items-center justify-center rounded-full bg-white">
+          <a
+            href="https://x.com/babybirdsol"
+            className="w-8 h-8 flex items-center justify-center rounded-full bg-white"
+          >
             <RiTwitterXLine className="w-5 h-5 lg:w-5 lg:h-5" />
-          </div>
+          </a>
         </div>
       </aside>
 
