@@ -3,12 +3,8 @@ export default {
   content: ["./src/**/*.{html,js,ts,tsx,jsx}"],
   theme: {
     extend: {
-      fontFamily: {
-        ChelseaMarket: ["ChelseaMarket", "system-ui"],
-      },
-
       colors: {
-        primary: "#ffd600",
+        primary: "#c7efe8",
       },
     },
   },

@@ -7,7 +7,7 @@ const WhyBabyBirdReason = ({ text, title }: Prop) => {
   return (
     <div className="w-full flex flex-col space-y-5 lg:w-[25%]">
       <h3 className="text-primary font-semibold">
-        <span className="text-6xl lg:text-2xl">{title.bold}</span>{" "}
+        <span className="text-4xl lg:text-2xl">{title.bold}</span>{" "}
         <span className="text-2xl">{title.normal}</span>
       </h3>
 

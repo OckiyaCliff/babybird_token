@@ -2,16 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "Chelsea-Market";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("./font/ChelseaMarket-Regular.ttf") format("ttf");
-}
-
 * {
   box-sizing: border-box;
+  font-family: "Chelsea Market", system-ui;
+}
+
+body::-webkit-scrollbar {
+  width: 0px;
 }
 
 .hero-con {
@@ -39,5 +36,5 @@
 }
 
 .link-style {
-  @apply text-white font-medium font-ChelseaMarket hover:text-gray-400;
+  @apply text-white font-medium hover:text-gray-400;
 }

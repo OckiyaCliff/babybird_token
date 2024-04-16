@@ -39,7 +39,7 @@ const WhyBabyBird = () => {
         ))}
       </div>
 
-      <section className="flex flex-col space-y-5 lg:flex-row lg:space-y-0 lg:space-x-12 lg:justify-center">
+      <section className="flex flex-col space-y-10 lg:flex-row lg:space-y-0 lg:space-x-20 lg:justify-center">
         <AnalysisCard text={["Total Supply", "420,000,000,000,000,000"]}>
           <MdPieChart className="w-10 h-10 text-primary" />
         </AnalysisCard>

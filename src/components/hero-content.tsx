@@ -11,19 +11,24 @@ const HeroContent = () => {
           <p className="text-white font-medium text-xl">
             The next crypto leader IS COMING.
           </p>
-          <p className="text-white font-medium text-xl lg:hidden">
-            CA: 0x258903A8e68d5248dE85CF8a0
-            <br />
-            a173d9e046EdD98
+          <p className="text-white font-medium text-lg lg:w-3/5">
+            Babybird s a GameFI ecosystem currently in development. The mission
+            statement of bibybird is to connect Meme communities by one
+            ecosystem.
           </p>
 
-          <p className="hidden text-white font-medium text-xl lg:block">
-            CA: 0x258903A8e68d5248dE85CF8a0a173d9e046EdD98
+          <p className="text-white font-medium text-lg lg:w-3/5">
+            The developers of babybird team (including a full stack developer)
+            have over 5 years of experience in vvarious crypto projects
+            throughout the space. We possess all of the skills and know-how
+            required to build a successful project.
           </p>
         </div>
 
         <div className="hero-btn-con">
-          <button className="hero-btn text-white bg-primary">BUY NOW II</button>
+          <button className="hero-btn text-gray-500 bg-primary">
+            BUY NOW II
+          </button>
           <button className="hero-btn text-blue-600  bg-white">
             Join Our Telegram
           </button>

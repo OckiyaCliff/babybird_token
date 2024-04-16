@@ -3,6 +3,8 @@ import Hero from "./components/hero";
 import SideNavBar from "./components/side-nav-bar";
 import MobileNavContextProvider from "./context/mobile-nav-context";
 import WhyBabyBird from "./components/why-baby-bird";
+import RoadMap from "./components/road-map";
+import OurPartners from "./components/ourPartners";
 
 function App() {
   const [isSideBarHidden, setIsSideBarHidden] = useState<boolean>(true);
@@ -16,6 +18,8 @@ function App() {
         {!isSideBarHidden && <SideNavBar />}
         <Hero />
         <WhyBabyBird />
+        <RoadMap />
+        <OurPartners />
       </main>
     </MobileNavContextProvider>
   );
