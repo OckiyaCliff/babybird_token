@@ -61,12 +61,6 @@ const SideNavBar = () => {
         >
           RoadMap
         </a>
-        <a
-          href=""
-          className="text-lg text-white font-medium font-ChelseaMarket hover:text-gray-400"
-        >
-          Our Partners
-        </a>
       </div>
     </aside>
   );
