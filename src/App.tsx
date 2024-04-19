@@ -2,7 +2,6 @@ import { useState } from "react";
 
 import Hero from "./components/hero-section";
 import SideNavBar from "./components/side-nav-bar";
-import OurPartners from "./components/ourPartners";
 import RoadMap from "./components/road-map-section";
 import WhyBabyBird from "./components/why-baby-bird-section";
 import MobileNavContextProvider from "./context/mobile-nav-context";
@@ -20,7 +19,6 @@ function App() {
         <Hero />
         <WhyBabyBird />
         <RoadMap />
-        <OurPartners />
       </main>
     </MobileNavContextProvider>
   );

@@ -12,7 +12,7 @@ body::-webkit-scrollbar {
 }
 
 .hero-con {
-  @apply w-full h-fit flex flex-col space-y-32 bg-[url('/baby_bird_bg.jpg')] bg-cover bg-no-repeat lg:space-y-0 lg:bg-center;
+  @apply w-full h-fit flex flex-col space-y-32 bg-[url('/baby_bird_hero_bg.jpg')] bg-cover bg-no-repeat lg:space-y-0 lg:bg-center;
 }
 
 .hero-content {

@@ -17,6 +17,8 @@ const HeroContent = () => {
             ecosystem.
           </p>
 
+          <img src="/" alt="" />
+
           <p className="text-white font-medium text-lg lg:w-3/5">
             The developers of babybird team (including a full stack developer)
             have over 5 years of experience in various crypto projects
