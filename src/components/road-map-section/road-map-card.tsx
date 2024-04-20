@@ -10,7 +10,7 @@ interface Prop {
 
 const RoadMapCard = ({ steps, phaseNo, children }: Prop) => {
   return (
-    <div className="w-full flex flex-col space-y-">
+    <div className="w-full flex flex-col lg:w-[45%]">
       <header className="w-full flex flex-col items-center space-y-5">
         <div className="w-20 h-20 flex items-center justify-center rounded-full bg-primary">
           {children}

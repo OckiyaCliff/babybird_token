@@ -11,7 +11,7 @@ const RoadMap = () => {
     <section className="w-full flex flex-col space-y-20 p-7 bg-black lg:items-center">
       <h2 className="text-center text-3xl font-semibold text-white">ROADMAP</h2>
 
-      <section className="w-full flex flex-col space-y-10 lg:flex-row lg:space-y-0 lg:space-x-10 lg:w-5/6">
+      <section className="road-map-section lg:flex-row">
         <RoadMapCard
           phaseNo={ROAD_MAP_PHASES[0].phaseNo}
           steps={ROAD_MAP_PHASES[0].steps}
@@ -19,15 +19,29 @@ const RoadMap = () => {
           <FaPeopleGroup className="w-11 h-11 text-gray-400" />
         </RoadMapCard>
 
+        <img
+          alt=""
+          src="/baby_bird_img_1.jpg"
+          className="rounded-tl-[20%] rounded-br-[20%] lg:w-96 lg:rounded-xl lg:h-96"
+        />
+      </section>
+
+      <section className="road-map-section lg:flex-row-reverse">
         <RoadMapCard
           phaseNo={ROAD_MAP_PHASES[1].phaseNo}
           steps={ROAD_MAP_PHASES[1].steps}
         >
           <LuBarChart3 className="w-11 h-11 text-gray-400" />
         </RoadMapCard>
+
+        <img
+          alt=""
+          src="/baby_bird_img_2.jpg"
+          className="rounded-tl-[20%] rounded-br-[20%] lg:w-96 lg:rounded-xl lg:h-96"
+        />
       </section>
 
-      <section className="w-full flex flex-col space-y-10 lg:flex-row lg:space-y-0 lg:space-x-10 lg:w-5/6">
+      <section className="road-map-section lg:flex-row">
         <RoadMapCard
           phaseNo={ROAD_MAP_PHASES[2].phaseNo}
           steps={ROAD_MAP_PHASES[2].steps}
@@ -35,12 +49,26 @@ const RoadMap = () => {
           <MdCampaign className="w-11 h-11 text-gray-400" />
         </RoadMapCard>
 
+        <img
+          alt=""
+          src="/baby_bird_img_3.jpg"
+          className="rounded-tl-[20%] rounded-br-[20%] lg:w-96 lg:rounded-xl lg:h-96"
+        />
+      </section>
+
+      <section className="road-map-section lg:flex-row-reverse">
         <RoadMapCard
           phaseNo={ROAD_MAP_PHASES[3].phaseNo}
           steps={ROAD_MAP_PHASES[3].steps}
         >
           <FaGlobeAmericas className="w-11 h-11 text-gray-400" />
         </RoadMapCard>
+
+        <img
+          alt=""
+          src="/baby_bird_img_4.jpg"
+          className="rounded-tl-[20%] rounded-br-[20%] lg:w-96 lg:rounded-xl lg:h-96"
+        />
       </section>
     </section>
   );

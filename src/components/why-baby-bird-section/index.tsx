@@ -40,27 +40,17 @@ const WhyBabyBird = () => {
       </div>
 
       <section className="flex flex-col space-y-10 lg:flex-row lg:space-y-0 lg:space-x-20 lg:items-center lg:justify-around">
-        <div className="flex flex-col space-y-10">
-          <AnalysisCard text={["Total Supply", "Supply 100B"]}>
-            <MdPieChart className="w-10 h-10 text-primary" />
-          </AnalysisCard>
+        <AnalysisCard text={["Total Supply", "Supply 100B"]}>
+          <MdPieChart className="w-10 h-10 text-primary" />
+        </AnalysisCard>
 
-          <AnalysisCard text={["Presale: 60%", "LP: 29.42%", "CEX: 9.87%"]}>
-            <BsFillBarChartFill className="w-10 h-10 text-primary" />
-          </AnalysisCard>
+        <AnalysisCard text={["Presale: 60%", "LP: 29.42%", "CEX: 9.87%"]}>
+          <BsFillBarChartFill className="w-10 h-10 text-primary" />
+        </AnalysisCard>
 
-          <AnalysisCard text={["Tax: 5% (Buy/Sell)Marketing."]}>
-            <MdBubbleChart className="w-10 h-10 text-primary" />
-          </AnalysisCard>
-        </div>
-
-        <div className="w-fit h-fit rounded-tl-[20%] rounded-br-[20%] overflow-hidden lg:rounded-none lg:overflow-visible">
-          <img
-            alt=""
-            src="/baby_bird_img_1.jpg"
-            className="rounded-tl-[20%] rounded-br-[20%] lg:w-96 lg:rounded-full"
-          />
-        </div>
+        <AnalysisCard text={["Tax: 5% (Buy/Sell)Marketing."]}>
+          <MdBubbleChart className="w-10 h-10 text-primary" />
+        </AnalysisCard>
       </section>
     </section>
   );

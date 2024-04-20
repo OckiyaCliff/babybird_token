@@ -38,3 +38,7 @@ body::-webkit-scrollbar {
 .link-style {
   @apply text-white font-medium hover:text-gray-400;
 }
+
+.road-map-section {
+  @apply w-full flex flex-col space-y-10 lg:space-y-0 lg:justify-between lg:items-center lg:w-5/6;
+}
