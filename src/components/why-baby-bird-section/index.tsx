@@ -1,5 +1,5 @@
 import { MdPieChart } from "react-icons/md";
-import { MdBubbleChart } from "react-icons/md";
+// import { MdBubbleChart } from "react-icons/md";
 import { BsFillBarChartFill } from "react-icons/bs";
 
 import WhyBabyBirdReason from "./reason";
@@ -49,9 +49,11 @@ const WhyBabyBird = () => {
             <BsFillBarChartFill className="w-10 h-10 text-primary" />
           </AnalysisCard>
 
+          {/* 
           <AnalysisCard text={["Tax: 5% (Buy/Sell)Marketing."]}>
             <MdBubbleChart className="w-10 h-10 text-primary" />
-          </AnalysisCard>
+          </AnalysisCard> 
+          */}
         </div>
 
         <div className="w-fit h-fit rounded-tl-[20%] rounded-br-[20%] overflow-hidden lg:rounded-none lg:overflow-visible">
