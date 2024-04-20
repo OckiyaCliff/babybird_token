@@ -11,7 +11,7 @@ const MobileNavBar = () => {
       <header>
         <img
           alt=""
-          src="/baby_bird_logo.jpg"
+          src="/baby_bird_logo_main.jpg"
           className="w-14 h-14 rounded-full"
         />
       </header>

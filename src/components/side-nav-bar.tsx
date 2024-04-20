@@ -23,36 +23,6 @@ const SideNavBar = () => {
           href=""
           className="text-lg text-white font-medium font-ChelseaMarket hover:text-gray-400"
         >
-          Gate.IO
-        </a>
-        <a
-          href=""
-          className="text-lg text-white font-medium font-ChelseaMarket hover:text-gray-400"
-        >
-          BITGET
-        </a>
-        <a
-          href=""
-          className="text-lg text-white font-medium font-ChelseaMarket hover:text-gray-400"
-        >
-          MEXC
-        </a>
-        <a
-          href=""
-          className="text-lg text-white font-medium font-ChelseaMarket hover:text-gray-400"
-        >
-          CERTIX Audit
-        </a>
-        <a
-          href=""
-          className="text-lg text-white font-medium font-ChelseaMarket hover:text-gray-400"
-        >
-          White Paper
-        </a>
-        <a
-          href=""
-          className="text-lg text-white font-medium font-ChelseaMarket hover:text-gray-400"
-        >
           Tokenomics
         </a>
         <a

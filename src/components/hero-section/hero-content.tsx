@@ -12,7 +12,7 @@ const HeroContent = () => {
             The next crypto leader IS COMING.
           </p>
           <p className="text-white font-medium text-lg lg:w-3/5">
-            Babybird s a GameFI ecosystem currently in development. The mission
+            Babybird is a GameFI ecosystem currently in development. The mission
             statement of babybird is to connect Meme communities by one
             ecosystem.
           </p>
