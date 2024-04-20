@@ -83,7 +83,7 @@ export const ROAD_MAP_PHASES = [
     phaseNo: 4,
     steps: [
       "Initiating marketing campaigns #4.",
-      "Focusing on expanding Baby Elons Token's presence in key global markets",
+      "Focusing on expanding BabyBird Token's presence in key global markets",
       "Establishing localized communities and language-specific communication channels.",
       "Collaborating with global influencers, media outlets, and industry associations to build trust and credibility",
       "Developing strategic partnerships with established projects or organizations in target markets.",

@@ -10,7 +10,7 @@ const DesktopNavBar = () => {
       </header>
 
       <div className="flex space-x-5">
-        <a href="" className="link-style">
+        {/* <a href="" className="link-style">
           Gate.IO
         </a>
 
@@ -28,7 +28,7 @@ const DesktopNavBar = () => {
 
         <a href="" className="link-style">
           White Paper
-        </a>
+        </a> */}
 
         <a href="" className="link-style">
           Tokenomics
