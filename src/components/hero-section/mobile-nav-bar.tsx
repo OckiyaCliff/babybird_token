@@ -9,11 +9,11 @@ const MobileNavBar = () => {
   return (
     <nav className="mobile-nav-con">
       <header>
-        {/* <img
+        <img
           alt=""
           src="/baby_bird_logo.jpg"
           className="w-14 h-14 rounded-full"
-        /> */}
+        />
       </header>
 
       <IoMenu
